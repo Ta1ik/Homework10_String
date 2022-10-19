@@ -124,7 +124,7 @@ public class Main {
         String first = "135";
         String second = "246";
         StringBuilder sb1 = new StringBuilder();
-        int str = Math.min(first.length(), second.length());
+        int str = first.length();
         sb1.append("Данные строки — ");
         for (int i = 0; i < str; i++) {
             sb1
